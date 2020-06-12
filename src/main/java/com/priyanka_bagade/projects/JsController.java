@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class JsController {
 
-    @RequestMapping(value = "/index")
+    @RequestMapping(value = "/piggame")
     public String getIndex(){
-        return "index";
+        return "piggame";
     }
 
 
