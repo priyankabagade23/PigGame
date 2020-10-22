@@ -12,4 +12,8 @@ public class JsController {
     }
 
 
+    @RequestMapping(value = "/budgety")
+    public String getBudget() {return "budgety";}
+
+
 }
